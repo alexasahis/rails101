@@ -23,3 +23,5 @@ window.jQuery = $
 window.$ = $
 
 import "bootstrap"
+
+import "../utils/datepicker"

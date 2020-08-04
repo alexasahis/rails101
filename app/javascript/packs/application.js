@@ -8,6 +8,7 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 reauire("bootstrap/alert")
+reauire("bootstrap/dropdown")
 console.log('Hello from application.js')
 
 // Uncomment to copy all static images under ../images to the output folder and reference

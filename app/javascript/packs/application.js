@@ -7,8 +7,8 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-reauire("bootstrap/alert")
-reauire("bootstrap/dropdown")
+//reauire("bootstrap/alert")
+//reauire("bootstrap/dropdown")
 console.log('Hello from application.js')
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -17,3 +17,9 @@ console.log('Hello from application.js')
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+import "jquery"
+window.jQuery = $
+window.$ = $
+
+import "bootstrap"

@@ -34,6 +34,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'foreman'
 gem 'rails_refactor'
+gem 'will_paginate'
 ##
 
 group :development, :test do

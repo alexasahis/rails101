@@ -48,5 +48,5 @@ test:
 production:
   <<: *default
   database: rails101_production
-  username: rails101
-  password: <%= ENV['RAILS101_DATABASE_PASSWORD'] %>
+  username: sa
+  password: <%= ENV['SA_PASSWORD'] %>
